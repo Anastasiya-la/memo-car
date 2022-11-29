@@ -1,38 +1,72 @@
 .App {
-  text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #f6f7fb;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 30px;
+    background-color: #ffffff;
+    width: 300px;
+    height: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-card {
+    display: flex;
+    justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.text-card {
+    text-align: center;
+    font-size: 25px;
+    color: #303545;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttons-card {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.buttons-card button {
+    background-color: #ffffff;
+    width: 30%;
+    border: 2px solid #edeff4;
+    border-radius: 10%;
+    color: #abb1bf;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card-edit {
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+
+}
+
+
+.card-edit:hover {
+    border-radius: 50%;
+    background-color: #edeff4;
+}
+
+.buttons-card button:hover {
+    border-color: #939bb4;
+    outline: none;
+}
+
+.description-card {
+    color: #939bb4;
+}
+
+.count-card {
+    color: #586380;
+    font-weight: 600;
 }
