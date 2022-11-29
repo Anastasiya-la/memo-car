@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/memo-car/static/css/main.0242338e.css",
+    "main.js": "/memo-car/static/js/main.f5037d39.js",
+    "static/js/787.cb0bdc78.chunk.js": "/memo-car/static/js/787.cb0bdc78.chunk.js",
+    "index.html": "/memo-car/index.html",
+    "main.0242338e.css.map": "/memo-car/static/css/main.0242338e.css.map",
+    "main.f5037d39.js.map": "/memo-car/static/js/main.f5037d39.js.map",
+    "787.cb0bdc78.chunk.js.map": "/memo-car/static/js/787.cb0bdc78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0242338e.css",
+    "static/js/main.f5037d39.js"
+  ]
+}
